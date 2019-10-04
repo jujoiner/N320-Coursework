@@ -1,0 +1,53 @@
+/* styles the body for appending */
+body {
+    background: rgb(236, 110, 7);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+/* styles student card */
+
+.student {
+    border-radius: 4px;
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    background-color: rgb(13, 16, 204);
+    color: #99062b;
+}
+
+/* styles arrow for clicking */
+.arrow, .backArrow {
+    cursor: pointer;
+    color: rgb(122, 55, 9);
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #7ecfc0;
+    Display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* becomes visible */
+.cardActive {
+    transition: transform .4s ease, opacity .3.5s ease;
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+/* becomes invisible */
+.cardOut {
+    transition: transform  .4s ease, opacity .3.5s ease;
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+/* puts the buttons next to each other */
+.fixThis{
+    display:flex;
+}
