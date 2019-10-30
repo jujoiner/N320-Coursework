@@ -1,0 +1,23 @@
+{
+    "meta":{
+        "type": "Top Three"
+    },
+  "game": [
+      {"name" : "Modern Warfare","rating": "M", "difficulty": 90, "modes":{
+        "mode1":"Team Deathmatch",
+        "mode2":"Search and Destroy",
+        "mode3":"Headquarters"}
+        },
+      {"name" : "Rocket League","rating": "T", "difficulty": 60, "modes":{
+        "mode1":"Chaos",
+        "mode2":"Standard",
+        "mode3":"Rumble"}
+        },
+      {"name" : "For Honor","rating": "M", "difficulty": 85, "modes":{
+        "mode1":"Dominion",
+        "mode2":"Brawl",
+        "mode3":"Breach"}
+        }
+  ]
+
+}
