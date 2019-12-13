@@ -84,7 +84,7 @@ window.addEventListener("click", function(){
 
     if(selectedObject){
 
-        if(selectedObject.tag =="ball"){
+        if(selectedObject.tag = "ball"){
         var surfaeNormal = pickResult.getNormal(true);
         var forceDirection = surfaeNormal.scale(-5000);
 
